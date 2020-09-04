@@ -18,4 +18,12 @@ public class Lamp {
     public String getStyle() {
         return style;
     }
+
+    public boolean isBattery() {
+        return battery;
+    }
+
+    public int getGlobRating() {
+        return globRating;
+    }
 }
